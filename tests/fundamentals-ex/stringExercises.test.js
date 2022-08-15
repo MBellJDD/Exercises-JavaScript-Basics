@@ -1,4 +1,4 @@
-import { concatenateStrings, giveOneLetter, returnAString, returnHello } 
+import { concatenateStrings, giveOneLetter, giveTheIndexOfWord, returnAString, returnHello } 
 from "../../src/fundamentals-ex/stringExercises";
 
 describe('Variables can be a string', () => {
@@ -20,51 +20,28 @@ describe('Variables can be a string', () => {
         const result = concatenateStrings();
         expect(result).toBe('I Love JS');
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    test.skip('should return letter g', () => 
+//TEST NUMBER FOUR
+    test('should return letter g', () => 
     {
-        const result = giveOneLetter
+        const result = giveOneLetter();
         expect(result).toBe('g');
     });
-
-
-    test.skip('should return -1', () => {
-        /* Añade las líneas necesarias al test / Modifica la function giveTheIndexOfWord */
+//TEST NUMBER FIVE
+    test('should return -1', () => {
         const result = giveTheIndexOfWord();
-
-        expect().toEqual(-1);
+        expect(result).toEqual(-1);
     });
-
+//TEST NUMBER SIX
     test.skip('should return "Give a Man a Pussy Cat" ', () => {
-        /* Añade las líneas necesarias al test / Modifica la function replaceFishWords */
 
         expect().toBe('Give a Man a Pussy Cat');
     });
-
+//TEST NUMBER SEVEN
     test.skip('should return "RIDE HIM, COWBOY!"', () => {
-        /* Añade las líneas necesarias al test / Modifica la function giveAllLettersInUppercase */
-        
         expect().toBe('RIDE HIM, COWBOY');
     });
-
+//TEST NUMBER EIGTH
     test.skip('should return "Hands Down"', () => {
-        /* Añade las líneas necesarias al test y modifica la function removeWhiteSpace */
 
         expect().toBe('Hands Down');
     });
