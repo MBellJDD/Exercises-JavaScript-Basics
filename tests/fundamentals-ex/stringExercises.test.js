@@ -1,69 +1,45 @@
-import { returnAString, returnHello } 
+import { concatenateStrings, giveOneLetter, returnAString, returnHello } 
 from "../../src/fundamentals-ex/stringExercises";
 
 describe('Variables can be a string', () => {
+//TEST NUMBER 1    
     test('should say Hello', () => 
     {
         const word = "Hello";
         expect(returnHello()).toBe('Hello');
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    test.skip('should return Hello World', () => {
-        /* Modifica la function returnAString del archivo stringExercises */
+//TEST NUMBER TWO
+    test('should return Hello World', () => 
+    {
         const result = returnAString();
         expect(result).toBe('Hello World');
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    test.skip('should be return I Love JS', () => {
-        /* Añade las líneas necesarias al test / Modifica la function concatenateStrings */
-
-        expect().toBe('I Love JS');
+//TEST NUMBER THREE 
+    test('should be return I Love JS', () => 
+    {
+        const result = concatenateStrings();
+        expect(result).toBe('I Love JS');
     });
-    test.skip('should return letter g', () => {
-        /* Añade las líneas necesarias al test / Modifica la function giveOneLetter para que devuelva la letra g de la variable configurada */
-        const result = giveOneLetter();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    test.skip('should return letter g', () => 
+    {
+        const result = giveOneLetter
         expect(result).toBe('g');
     });
 

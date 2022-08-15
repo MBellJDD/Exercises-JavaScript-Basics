@@ -1,60 +1,13 @@
+//NUMBER ONE
 export function returnHello() 
 {
     return "Hello"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//NUMBER TWO
 export function returnAString() {
     return "Hello World"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//NUMBER THREE
 
 
 
@@ -68,6 +21,20 @@ export function concatenateStrings() {
     const phrase = `${firstWord} ${secondWord} JS`;
     return (phrase)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 export function giveOneLetter() {
