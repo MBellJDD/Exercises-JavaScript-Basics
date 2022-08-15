@@ -1,53 +1,100 @@
-export function returnHello()
+export function returnHello() 
 {
-return "Hello"
+    return "Hello"
 }
 
-export function returnAString()
-{
-    /* Completa la function */
-return "Hello World"    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export function returnAString() {
+    return "Hello World"
 }
 
-export function concatenateStrings()
-{
-    /* Completa la function */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export function concatenateStrings() {
     const firstWord = 'I';
     const secondWord = 'Love';
     const phrase = `${firstWord} ${secondWord} JS`;
     return (phrase)
-    
 }
 
-export function giveOneLetter()
-{
-    /* Completa la function */
+
+export function giveOneLetter() {
     const word = 'dog';
     const letterPosition = word.indexOf('g');
     return word[letterPosition]
 }
 
-export function giveTheIndexOfWord()
-{
+
+export function giveTheIndexOfWord() {
     const wordToSearch = 'Butterfly';
     const phrase = "Once upon a time!!!";
-    
+    return wordToSearch()
 }
 
-export function replaceFishWords()
-{
+
+export function replaceFishWords() {
     let phrase = 'Give a Man a Fish';
-    
 }
 
-export function giveAllLettersInUppercase()
-{
+
+export function giveAllLettersInUppercase() {
     let phrase = 'Ride Him, Cowboy!';
-    
 }
 
-export function removeWhiteSpaces()
-{
+
+export function removeWhiteSpaces() {
     let phrase = '    Hands Down    ';
-    
+
 }
